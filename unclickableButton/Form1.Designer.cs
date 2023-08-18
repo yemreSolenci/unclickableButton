@@ -39,7 +39,7 @@
             unclickableButton.TabIndex = 0;
             unclickableButton.Text = "Tıklayamazsın";
             unclickableButton.UseVisualStyleBackColor = true;
-            unclickableButton.Click += unclickableButton_Click;
+            unclickableButton.MouseClick += unclickableButton_MouseClick;
             unclickableButton.MouseEnter += unclickableButton_MouseEnter;
             // 
             // Form1

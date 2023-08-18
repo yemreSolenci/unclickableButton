@@ -10,7 +10,7 @@ namespace unclickableButton
             InitializeComponent();
         }
 
-        private void unclickableButton_Click(object sender, EventArgs e)
+        private void unclickableButton_MouseClick(object sender, MouseEventArgs e)
         {
             MessageBox.Show("Týkladýn");
         }
